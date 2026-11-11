@@ -1,1 +1,1 @@
-# team_demeter_hyperspectral_project
+# Project Demeter: Hyperspectral Vegetation Mapping of Puglia, Italia
