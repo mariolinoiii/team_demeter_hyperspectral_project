@@ -1,0 +1,57 @@
+{
+  "project": "Project_Demeter",
+  "scene_id": "20250430_101724_87_4001",
+  "h5_url": "https://storage.googleapis.com/open-cogs/planet-stac/tanager1-release2-core-imagery/ortho_sr_hdf5/20250430_101724_87_4001_ortho_sr_hdf5.h5",
+  "crop_size": 512,
+  "crop_center": null,
+  "output_dir": "demeter_outputs",
+  "seed": 42,
+  "labels_csv": null,
+  "target_label": null,
+  "run_deep_learning": true,
+  "cnn_epochs": 20,
+  "max_train_per_class": 1000,
+  "block_size": 40,
+  "sam_threshold_deg": 10.0,
+  "thresholds": {
+    "ndvi_vegetation": 0.5
+  },
+  "sensitivity_thresholds": [
+    0.2,
+    0.3,
+    0.4,
+    0.5,
+    0.6
+  ],
+  "main_method": "RandomForest",
+  "fit_max_pixels": 15000,
+  "pca_components": 10,
+  "cluster_count": 5,
+  "mixture_sample_pixels": 5000,
+  "bad_ranges_nm": [
+    [
+      1350,
+      1450
+    ],
+    [
+      1800,
+      2000
+    ]
+  ],
+  "second_date_url": null,
+  "theme": "Agriculture",
+  "aoi_bbox_lonlat": null,
+  "search_start": null,
+  "search_end": null,
+  "search_max_cloud": null,
+  "catalog_refresh": false,
+  "run_training_cv": true,
+  "cv_folds": 3,
+  "bootstrap_replicates": 500,
+  "assessment_per_class": 50,
+  "strict_product_checks": false,
+  "run_notes": "Single-date vegetation mapping; no crop species, disease, yield or health diagnosis.",
+  "use_cloud_mask": true,
+  "use_cirrus_mask": true,
+  "require_nodata_mask": true
+}
