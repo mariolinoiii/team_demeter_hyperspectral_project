@@ -23,6 +23,8 @@ The project does **not** classify land cover, identify crop species, or diagnose
 | Reference labels | Independent labelled CSV, not supplied | Not available | Required for supervised training and independent validation |
 | Ancillary data | Tanager catalogue footprint, source CRS and transform | Source-associated | Geographic checks and export |
 
+**Image source:** [Tanager STAC Data - Planet Labs](https://www.planet.com/data/stac/browser/tanager-core-imagery/agriculture/20250430_101724_87_4001/20250430_101724_87_4001.json) © 2025 Planet Labs PBC, CC-BY-4.0.
+
 ### Study area
 
 - **Location:** Massafra area, Puglia, Italia.
@@ -101,6 +103,7 @@ The notebook produces:
 - `Project_Demeter_metadata.json`: provenance, configuration, software versions, attribution, and processing information.
 - CSV files for threshold sensitivity, mean spectra, and validation status.
 - PNG figures for the scene, QA masks, spectral features, clustering, and threshold sensitivity.
+- `validation/`: NDVI threshold-sensitivity CSV and PNG, plus `validation_design_status.json` explaining that no independent reference labels were supplied and no accuracy was computed.
 - `Project_Demeter_results.zip`: packaged results.
 
 ## How to run
@@ -161,7 +164,7 @@ No independent reference labels were supplied for the executed run. Therefore:
 
 ## Data attribution
 
-- Tanager STAC Data, available at https://www.planet.com/data/stac © 2025 Planet Labs PBC, CC-BY-4.0.
+- Tanager STAC Data, available at [https://www.planet.com/data/stac](https://www.planet.com/data/stac) © 2025 Planet Labs PBC, CC-BY-4.0.
 - NDVI: Rouse et al. (1974), *NASA Special Publication*, 351, 309–317.
 - NDRE: Gitelson and Merzlyak (1994), *Journal of Plant Physiology*, 143(3), 286–292; Barnes et al. (2000), *Remote Sensing of Environment*, 74(3), 584–593.
 - NDMI: Gao (1996), *Remote Sensing of Environment*, 58(3), 257–266.
