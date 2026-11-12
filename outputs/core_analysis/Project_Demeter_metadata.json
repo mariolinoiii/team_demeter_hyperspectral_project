@@ -54,7 +54,10 @@
     "run_notes": "Single-date vegetation mapping; no crop species, disease, yield or health diagnosis.",
     "use_cloud_mask": true,
     "use_cirrus_mask": true,
-    "require_nodata_mask": true
+    "require_nodata_mask": true,
+    "run_heavy_catalog_build": false,
+    "run_spatial_cv": false,
+    "run_block_bootstrap": false
   },
   "source_report": {
     "dataset": "HDFEOS/GRIDS/HYP/Data Fields/surface_reflectance",
