@@ -174,4 +174,4 @@ The project made use of AI tools (e.g., ChatGPT, Gemini, gIQ AI Assistant, Perpl
 - Debugging and performance improvements (e.g., tiled processing)  
 - Drafting documentation and usage guidelines  
 
-All architectural choices, final code, and interpretation remain the responsibility of **Team Proteus**.
+All architectural choices, final code, and interpretation remain the responsibility of **Team Demeter**.
