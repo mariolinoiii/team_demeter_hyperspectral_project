@@ -165,3 +165,13 @@ No independent reference labels were supplied for the executed run. Therefore:
 - NDVI: Rouse et al. (1974), *NASA Special Publication*, 351, 309–317.
 - NDRE: Gitelson and Merzlyak (1994), *Journal of Plant Physiology*, 143(3), 286–292; Barnes et al. (2000), *Remote Sensing of Environment*, 74(3), 584–593.
 - NDMI: Gao (1996), *Remote Sensing of Environment*, 58(3), 257–266.
+
+## AI‑Assisted Development
+
+The project made use of AI tools (e.g., ChatGPT, Gemini, gIQ AI Assistant, Perplexity) for:
+
+- Code generation and refactoring  
+- Debugging and performance improvements (e.g., tiled processing)  
+- Drafting documentation and usage guidelines  
+
+All architectural choices, final code, and interpretation remain the responsibility of **Team Proteus**.
