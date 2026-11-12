@@ -1,0 +1,172 @@
+{
+  "config": {
+    "project": "Project_Demeter",
+    "scene_id": "20250430_101724_87_4001",
+    "h5_url": "https://storage.googleapis.com/open-cogs/planet-stac/tanager1-release2-core-imagery/ortho_sr_hdf5/20250430_101724_87_4001_ortho_sr_hdf5.h5",
+    "crop_size": 512,
+    "crop_center": null,
+    "output_dir": "demeter_outputs",
+    "seed": 42,
+    "labels_csv": null,
+    "target_label": null,
+    "run_deep_learning": true,
+    "cnn_epochs": 20,
+    "max_train_per_class": 1000,
+    "block_size": 40,
+    "sam_threshold_deg": 10.0,
+    "thresholds": {
+      "ndvi_vegetation": 0.5
+    },
+    "sensitivity_thresholds": [
+      0.2,
+      0.3,
+      0.4,
+      0.5,
+      0.6
+    ],
+    "main_method": "RandomForest",
+    "fit_max_pixels": 15000,
+    "pca_components": 10,
+    "cluster_count": 5,
+    "mixture_sample_pixels": 5000,
+    "bad_ranges_nm": [
+      [
+        1350,
+        1450
+      ],
+      [
+        1800,
+        2000
+      ]
+    ],
+    "second_date_url": null,
+    "theme": "Agriculture",
+    "aoi_bbox_lonlat": null,
+    "search_start": null,
+    "search_end": null,
+    "search_max_cloud": null,
+    "catalog_refresh": false,
+    "run_training_cv": true,
+    "cv_folds": 3,
+    "bootstrap_replicates": 500,
+    "assessment_per_class": 50,
+    "strict_product_checks": false,
+    "run_notes": "Single-date vegetation mapping; no crop species, disease, yield or health diagnosis.",
+    "use_cloud_mask": true,
+    "use_cirrus_mask": true,
+    "require_nodata_mask": true
+  },
+  "source_report": {
+    "dataset": "HDFEOS/GRIDS/HYP/Data Fields/surface_reflectance",
+    "wavelength_source": "HDFEOS/GRIDS/HYP/Data Fields/surface_reflectance@wavelengths",
+    "spectral_axis": 0,
+    "full_shape": [
+      426,
+      766,
+      876
+    ],
+    "crop_rows": [
+      127,
+      639
+    ],
+    "crop_cols": [
+      182,
+      694
+    ],
+    "wavelength_range_nm": [
+      376.44000244140625,
+      2499.0
+    ],
+    "selected_wavelengths_nm": {
+      "480": 480.9599914550781,
+      "560": 560.8300170898438,
+      "665": 665.8699951171875,
+      "860": 861.260009765625
+    },
+    "filename_timestamp": "2025-04-30T10:17:24",
+    "location_note": "Puglia location supplied by user; verify scene footprint before geographic claims.",
+    "candidate_pixel_counts": {
+      "High-NDVI vegetation candidates": 145771,
+      "Moderate-NDVI bright surface candidates": 3455,
+      "Low-NDVI dark surface candidates": 10078
+    },
+    "valid_ndvi_pixels": 262144,
+    "limitations": [
+      "Heuristic groups are not verified soil or water classes.",
+      "NDVI is not a diagnosis of crop health, disease or yield.",
+      "PNG and NumPy outputs are not georeferenced maps.",
+      "Cloud/shadow/glint screening requires visual review; good_wavelengths is spectral QA, not a cloud mask."
+    ]
+  },
+  "reference_names": [
+    "Cluster_0_prototype",
+    "Cluster_1_prototype",
+    "Cluster_2_prototype",
+    "Cluster_3_prototype",
+    "Cluster_4_prototype"
+  ],
+  "reference_origin": "Unlabelled cluster prototypes: no material identity claimed",
+  "main_method": "SpectralClusters",
+  "result_description": "Unsupervised spectral clusters; no semantic class names inferred",
+  "status": {
+    "spatial_qa": {
+      "available_masks": [
+        "nodata",
+        "cloud",
+        "cirrus"
+      ],
+      "flagged_fraction": {
+        "nodata": 0.0,
+        "cloud": 0.019847869873046875,
+        "cirrus": 0.003749847412109375
+      },
+      "helper_sha256": "cdf90ac82f609e7e445bce65fbc5d220c83b7845191ed3b07d1cdd4668b3c686",
+      "retained_bands": 345,
+      "valid_pixels": 256933,
+      "note": "Beta cloud/cirrus masks require visual inspection."
+    },
+    "supervised": "Skipped: no independent reference CSV supplied.",
+    "material_references": "Unlabelled cluster prototypes: no material identity claimed",
+    "target_detection": "Skipped: independent target/background training labels and TARGET_LABEL required.",
+    "deep_learning": "Skipped: independent labels or RUN_DEEP_LEARNING required.",
+    "sensor_comparison": "Approximate same-scene bandpass simulation, not external validation.",
+    "change_detection": "Not run: this edition supports a single-date project; a second date needs alignment, QA and coregistration before analysis.",
+    "uncertainty": "Threshold sensitivity only; reflectance-uncertainty propagation and calibrated probabilities are not implemented.",
+    "georeferenced_export": "COGs written; verify geographic alignment in GIS before submission."
+  },
+  "georeferencing": {
+    "crs": "EPSG:32633",
+    "bounds": [
+      674520.0,
+      4486140.0,
+      689880.0,
+      4501500.0
+    ],
+    "transform": [
+      30.0,
+      0.0,
+      674520.0,
+      0.0,
+      -30.0,
+      4501500.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  "python": "3.13.18",
+  "packages": {
+    "numpy": "2.4.6",
+    "scikit-learn": "1.6.1",
+    "h5py": "3.14.0",
+    "rasterio": "1.5.2"
+  },
+  "attribution": "Tanager \u2014 CC-BY-4.0 \u00a9 Planet Labs PBC, per supplied course materials; verify selected asset terms.",
+  "limitations": [
+    "No crop-health, disease or yield diagnosis.",
+    "Spatial QA may be incomplete; visual inspection required.",
+    "Clusters have no verified material identity.",
+    "Normalised NNLS is not exact FCLS.",
+    "No HybridSN, temporal change or physical uncertainty propagation."
+  ]
+}
