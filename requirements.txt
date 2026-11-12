@@ -1,0 +1,13 @@
+requests
+h5py
+numpy
+matplotlib
+pandas
+scipy
+scikit-learn
+joblib
+rasterio
+rioxarray
+xarray
+geopandas
+shapely
