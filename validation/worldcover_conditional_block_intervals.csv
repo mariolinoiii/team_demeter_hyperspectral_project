@@ -1,0 +1,17 @@
+target,method,metric,estimate,lower_95,upper_95,interpretation
+vegetation,NDVI_fixed_threshold,overall_agreement,0.6966757870728945,0.668332469822825,0.7225953617002628,Conditional scene-block variability; not true map accuracy or area CI
+vegetation,NDVI_fixed_threshold,macro_F1_agreement,0.6278323193514567,0.5879755675397372,0.6626472320043566,Conditional scene-block variability; not true map accuracy or area CI
+vegetation,NDVI_fixed_threshold,positive_F1_agreement,0.7878989108366582,0.7653417646842192,0.8090863680777005,Conditional scene-block variability; not true map accuracy or area CI
+vegetation,NDVI_fixed_threshold,positive_IoU_agreement,0.6500273928311614,0.6198814781448152,0.6793829096769616,Conditional scene-block variability; not true map accuracy or area CI
+vegetation,All_vegetation_baseline,overall_agreement,0.8627424270140465,0.8258845482354243,0.8921883567126171,Conditional scene-block variability; not true map accuracy or area CI
+vegetation,All_vegetation_baseline,macro_F1_agreement,0.4631571249477643,0.45232024170270224,0.47151115374991115,Conditional scene-block variability; not true map accuracy or area CI
+vegetation,All_vegetation_baseline,positive_F1_agreement,0.9263142498955286,0.9046404834054045,0.9430223074998223,Conditional scene-block variability; not true map accuracy or area CI
+vegetation,All_vegetation_baseline,positive_IoU_agreement,0.8627424270140465,0.8258845482354243,0.8921883567126171,Conditional scene-block variability; not true map accuracy or area CI
+cropland,NDVI_fixed_threshold,overall_agreement,0.4303145177925763,0.4016889594713287,0.4621982545964369,Conditional scene-block variability; not true map accuracy or area CI
+cropland,NDVI_fixed_threshold,macro_F1_agreement,0.40261914140305066,0.3799944552963905,0.42807176907771544,Conditional scene-block variability; not true map accuracy or area CI
+cropland,NDVI_fixed_threshold,positive_F1_agreement,0.2739929864937925,0.24252002117731156,0.304590315389476,Conditional scene-block variability; not true map accuracy or area CI
+cropland,NDVI_fixed_threshold,positive_IoU_agreement,0.15874384307234282,0.13799316025511052,0.1796558779999218,Conditional scene-block variability; not true map accuracy or area CI
+cropland,All_vegetation_baseline,overall_agreement,0.21733292336912735,0.19181824883957238,0.2441827753062013,Conditional scene-block variability; not true map accuracy or area CI
+cropland,All_vegetation_baseline,macro_F1_agreement,0.17853203441473528,0.16094579580488405,0.19625954746027058,Conditional scene-block variability; not true map accuracy or area CI
+cropland,All_vegetation_baseline,positive_F1_agreement,0.35706406882947056,0.3218915916097681,0.39251909492054116,Conditional scene-block variability; not true map accuracy or area CI
+cropland,All_vegetation_baseline,positive_IoU_agreement,0.21733292336912735,0.19181824883957238,0.2441827753062013,Conditional scene-block variability; not true map accuracy or area CI
