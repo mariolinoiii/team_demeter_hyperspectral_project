@@ -11,3 +11,9 @@ rioxarray
 xarray
 geopandas
 shapely
+pyproj
+pystac-client
+planetary-computer
+ipython
+ipykernel
+notebook
