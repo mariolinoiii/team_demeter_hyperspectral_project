@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "cropped_AOI",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "scene_id": "20250430_101724_87_4001" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 17.240950111409916, 40.504259480235476 ], [ 17.245570198016896, 40.642530013414479 ], [ 17.064035868689935, 40.645918944354619 ], [ 17.059788601987318, 40.507632004601589 ], [ 17.240950111409916, 40.504259480235476 ] ] ] } }
+]
+}

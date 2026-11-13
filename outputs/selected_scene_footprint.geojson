@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "selected_scene_footprint",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "id": "20250430_101724_87_4001", "collection": "coastal-water-bodies", "datetime": "2025-04-30T10:17:24.870Z", "location": "Massafra, Taranto, Apulia, 74016, Italy", "cloud_percent": 2, "light_haze_percent": 0, "off_nadir": 27.8, "sun_elevation": 63.5, "gsd": 33.65, "item_url": "https://www.planet.com/data/stac/tanager-core-imagery/coastal-water-bodies/20250430_101724_87_4001/20250430_101724_87_4001.json", "sr_url": "https://storage.googleapis.com/open-cogs/planet-stac/tanager1-release2-core-imagery/ortho_sr_hdf5/20250430_101724_87_4001_ortho_sr_hdf5.h5", "thumbnail": "https://storage.googleapis.com/open-cogs/planet-stac/tanager1-release2-core-imagery/thumbnail/20250430_101724_87_4001_thumb.png", "visual": "https://storage.googleapis.com/open-cogs/planet-stac/tanager1-release2-core-imagery/ortho_visual/20250430_101724_87_4001_ortho_visual.tif", "collections": "agriculture, coastal-water-bodies" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 17.044788992897054, 40.680536075259738 ], [ 16.995577443008941, 40.516317028658563 ], [ 17.264412221766683, 40.469410119509135 ], [ 17.309731355940727, 40.634042306117315 ], [ 17.044788992897054, 40.680536075259738 ] ] ] } }
+]
+}

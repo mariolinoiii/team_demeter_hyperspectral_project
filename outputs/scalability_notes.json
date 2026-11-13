@@ -1,0 +1,16 @@
+{
+  "current_scope": "One 512 x 512 Tanager crop",
+  "requirements": [
+    "Confirm monthly acquisition coverage",
+    "STAC discovery and versioned manifests",
+    "Consistent QA and windowed/tiled processing",
+    "Batch queues, retries and monitoring",
+    "Central COG storage and metadata",
+    "Harmonised features/models and transfer assessment"
+  ],
+  "limitations": [
+    "Monthly country-wide coverage not established",
+    "Cluster IDs are not semantic labels",
+    "WorldCover is not monthly ground truth"
+  ]
+}

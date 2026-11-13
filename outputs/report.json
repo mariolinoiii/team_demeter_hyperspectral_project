@@ -1,0 +1,42 @@
+{
+  "dataset": "HDFEOS/GRIDS/HYP/Data Fields/surface_reflectance",
+  "wavelength_source": "HDFEOS/GRIDS/HYP/Data Fields/surface_reflectance@wavelengths",
+  "spectral_axis": 0,
+  "full_shape": [
+    426,
+    766,
+    876
+  ],
+  "crop_rows": [
+    127,
+    639
+  ],
+  "crop_cols": [
+    182,
+    694
+  ],
+  "wavelength_range_nm": [
+    376.44000244140625,
+    2499.0
+  ],
+  "selected_wavelengths_nm": {
+    "480": 480.9599914550781,
+    "560": 560.8300170898438,
+    "665": 665.8699951171875,
+    "860": 861.260009765625
+  },
+  "filename_timestamp": "2025-04-30T10:17:24",
+  "location_note": "Puglia location supplied by user; verify scene footprint before geographic claims.",
+  "candidate_pixel_counts": {
+    "High-NDVI vegetation candidates": 145771,
+    "Moderate-NDVI bright surface candidates": 3455,
+    "Low-NDVI dark surface candidates": 10078
+  },
+  "valid_ndvi_pixels": 262144,
+  "limitations": [
+    "Heuristic groups are not verified soil or water classes.",
+    "NDVI is not a diagnosis of crop health, disease or yield.",
+    "PNG and NumPy outputs are not georeferenced maps.",
+    "Cloud/shadow/glint screening requires visual review; good_wavelengths is spectral QA, not a cloud mask."
+  ]
+}

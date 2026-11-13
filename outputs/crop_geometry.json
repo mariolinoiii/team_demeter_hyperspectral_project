@@ -1,0 +1,44 @@
+{
+  "row_window": [
+    127,
+    639
+  ],
+  "column_window": [
+    182,
+    694
+  ],
+  "window_convention": "Zero-based start inclusive; stop exclusive",
+  "shape": [
+    512,
+    512
+  ],
+  "crs": "EPSG:32633",
+  "transform": [
+    30.0,
+    0.0,
+    674520.0,
+    0.0,
+    -30.0,
+    4501500.0
+  ],
+  "pixel_size_crs_units": [
+    30.0,
+    30.0
+  ],
+  "projected_bounds_wsen": [
+    674520.0,
+    4486140.0,
+    689880.0,
+    4501500.0
+  ],
+  "lonlat_bounds_wsen": [
+    17.059788601987318,
+    40.504259480235476,
+    17.245570198016896,
+    40.64591894435462
+  ],
+  "projected_crop_area_km2": 235.9296,
+  "administrative_boundary_check": "Not performed; image-crop AOI, not administratively restricted",
+  "valid_pixels": 256933,
+  "valid_area_km2": 231.2397
+}
