@@ -1,7 +1,0 @@
-feature,role,target_wavelength_nm,selected_band_center_nm
-NDVI,nir_nm,860,861.260009765625
-NDVI,red_nm,665,665.8699951171875
-NDRE,nir_nm,790,791.0900268554688
-NDRE,red_edge_nm,720,720.9500122070312
-NDMI,nir_nm,860,861.260009765625
-NDMI,swir_nm,1650,1647.6600341796875

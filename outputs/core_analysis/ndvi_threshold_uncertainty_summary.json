@@ -1,7 +1,0 @@
-{
-  "ndvi_threshold_min": 0.2,
-  "ndvi_threshold_max": 0.6,
-  "candidate_pixels_min_thr": 233939,
-  "candidate_pixels_max_thr": 91875,
-  "note": "Threshold sensitivity range; not a statistical confidence interval."
-}
