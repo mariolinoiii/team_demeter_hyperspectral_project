@@ -1,4 +1,4 @@
-# Project Demeter (Draft, revise info and revert changes from template)
+# Project Demeter
 
 **Hyperspectral Vegetation Mapping of Puglia, Italia**  
 Space Academy 2026 · Hyperspectral course · Final graduation project
