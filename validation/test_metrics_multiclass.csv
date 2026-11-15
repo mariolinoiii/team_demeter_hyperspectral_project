@@ -1,0 +1,4 @@
+feature set,features,model (chosen on validation),OA [95% CI],macro-F1 [95% CI],cropland F1 [95% CI]
+Four indices,4,SVM (RBF) C=10,"0.661 [0.613, 0.709]","0.700 [0.644, 0.733]","0.478 [0.413, 0.546]"
+Sentinel-2-like,10,SVM (RBF) C=10,"0.723 [0.685, 0.762]","0.771 [0.732, 0.792]","0.605 [0.547, 0.651]"
+Full spectrum,352,Logistic regression C=1,"0.790 [0.757, 0.821]","0.823 [0.793, 0.840]","0.698 [0.653, 0.736]"

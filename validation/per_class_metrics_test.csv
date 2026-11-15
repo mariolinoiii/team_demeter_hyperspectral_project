@@ -1,0 +1,6 @@
+class,reference pixels,precision (user's),recall (producer's),F1,IoU,F1 Sentinel-2-like,F1 Four indices
+Cropland,10126,0.7079,0.6884,0.698,0.5361,0.6054,0.4777
+Woody vegetation,21398,0.9096,0.805,0.8541,0.7454,0.7884,0.774
+Grassland,11262,0.6251,0.7586,0.6854,0.5214,0.619,0.5011
+Built-up / bare,2440,0.8307,0.9373,0.8808,0.787,0.8413,0.7497
+Water,3324,0.9928,0.9997,0.9963,0.9925,0.9991,0.997

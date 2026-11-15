@@ -1,0 +1,6 @@
+NDVI threshold,"area, certain (NDVI-σ > t) km²","area, nominal (NDVI > t) km²","area, possible (NDVI+σ > t) km²"
+0.2,209.9,210.5,211.2
+0.3,192.7,194.0,195.3
+0.4,165.8,167.4,169.1
+0.5,128.9,131.2,133.5
+0.6,80.3,82.7,85.2

@@ -1,0 +1,6 @@
+,pred: Cropland,pred: Woody vegetation,pred: Grassland,pred: Built-up / bare,pred: Water
+ref: Cropland,6971,775,2260,120,0
+ref: Woody vegetation,1242,17226,2788,142,0
+ref: Grassland,1615,901,8543,203,0
+ref: Built-up / bare,19,35,75,2287,24
+ref: Water,0,0,0,1,3323

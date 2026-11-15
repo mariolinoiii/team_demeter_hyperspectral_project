@@ -1,0 +1,14 @@
+Item,Value
+Scene and date,"20250430_101724_87_4001, 30 April 2025"
+Analysis window,236 km² (512 × 512 pixels at 30 m)
+Bands retained / valid pixels,"352 of 426 bands; 256,933 valid pixels (98.0 %)"
+Test set,"48,550 pixels in 51 spatial blocks"
+"Macro-F1, full spectrum [95 % CI]","0.823 [0.793, 0.840]"
+"Macro-F1, Sentinel-2-like [95 % CI]","0.771 [0.732, 0.792]"
+"Macro-F1, four indices [95 % CI]","0.700 [0.644, 0.733]"
+Cropland F1 (full / Sentinel-2-like / indices),0.70 / 0.61 / 0.48
+"Full minus Sentinel-2-like, macro-F1 [95 % CI]","+0.052 [0.039, 0.071]"
+NDVI > 0.5: area / share that is cropland / cropland found,131 km² / 16% / 47%
+Mapped cropland: area / precision / recall,51 km² / 71% / 69%
+Land to inspect saved versus NDVI > 0.5,61%
+Model-confidence calibration error,0.011

@@ -1,0 +1,4 @@
+feature set,"macro-F1, all test pixels","macro-F1, interior pixels only [95% CI]",interior share of test pixels
+Four indices,0.7,"0.752 [0.651, 0.796]",0.324
+Sentinel-2-like,0.771,"0.847 [0.781, 0.875]",0.324
+Full spectrum,0.823,"0.897 [0.847, 0.919]",0.324

@@ -1,0 +1,7 @@
+comparison,metric,difference,95% CI,CI excludes 0
+Full spectrum minus Sentinel-2-like,macro-F1,0.052,"[0.039, 0.071]",True
+Full spectrum minus Sentinel-2-like,cropland F1,0.093,"[0.060, 0.134]",True
+Full spectrum minus Four indices,macro-F1,0.123,"[0.097, 0.159]",True
+Full spectrum minus Four indices,cropland F1,0.22,"[0.158, 0.287]",True
+Sentinel-2-like minus Four indices,macro-F1,0.071,"[0.048, 0.098]",True
+Sentinel-2-like minus Four indices,cropland F1,0.128,"[0.061, 0.195]",True
