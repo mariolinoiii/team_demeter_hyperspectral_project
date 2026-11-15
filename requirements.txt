@@ -1,19 +1,15 @@
-requests
-h5py
-numpy
-matplotlib
-pandas
-scipy
-scikit-learn
-joblib
-rasterio
-rioxarray
-xarray
-geopandas
-shapely
-pyproj
-pystac-client
-planetary-computer
-ipython
+# Packages beyond the standard Python library. Tested with Python 3.13 on Windows 11.
+# Versions in the comments are the ones used to produce the submitted results.
+numpy>=2.0            # 2.5.2
+scipy>=1.13           # 1.18.1
+pandas>=2.2           # 3.0.5
+matplotlib>=3.8       # 3.11.2
+scikit-learn>=1.5     # 1.9.1
+h5py>=3.10            # 3.16.0   (reads the Tanager HDF5 file)
+rasterio>=1.4         # 1.5.2    (GeoTIFF/COG output and WorldCover reading; needs GDAL with the COG driver)
+pyproj>=3.6           # 3.8.0
+requests>=2.31        # 2.34.2   (downloads)
+# To run the notebook itself:
 ipykernel
-notebook
+nbformat
+nbclient
