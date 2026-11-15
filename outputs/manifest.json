@@ -1,0 +1,207 @@
+[
+ {
+  "file": "outputs/demeter_report.html",
+  "bytes": 4233333,
+  "sha256": "d4ab0be195fd2ae814c0104e4ba7ff0c2cdc0fbd96009dea388b9b38ed1304e5"
+ },
+ {
+  "file": "outputs/figures/f01_scene_overview.png",
+  "bytes": 1484429,
+  "sha256": "3195a17cb900ec3090b167ee544afce7fe5176e0904848bb9d4ccd7e112272e5"
+ },
+ {
+  "file": "outputs/figures/f01b_window_and_cloud_flag.png",
+  "bytes": 1203162,
+  "sha256": "905f07ee76f6f3993009f2394cb224d94e403428c7989411a3d44b20e956282f"
+ },
+ {
+  "file": "outputs/figures/f02_reference_labels.png",
+  "bytes": 155002,
+  "sha256": "7235665a62fcbf928f9ecf7edd68620bfa05f408a15835d17d4ad4132081ef30"
+ },
+ {
+  "file": "outputs/figures/f03_qa_masks.png",
+  "bytes": 1715954,
+  "sha256": "640b389dd8d8dafc178164b3e6338d60858dbeea806fd176179f3ed0cb849281"
+ },
+ {
+  "file": "outputs/figures/f03b_median_spectrum.png",
+  "bytes": 85661,
+  "sha256": "2ecb528e93c82257bd39b40995a3ab8c02c2b81851b95dd44a0f0cf9da562914"
+ },
+ {
+  "file": "outputs/figures/f04_feature_maps.png",
+  "bytes": 2435075,
+  "sha256": "637ce4e159d77840e62e1a2cf8f431eb108cab730b7853278e0578a11d45b9b7"
+ },
+ {
+  "file": "outputs/figures/f05_class_spectra.png",
+  "bytes": 275930,
+  "sha256": "9c4d8e408828ad0adcdcdcf15244395abb31217b4aee642300c30ffe7aeead23"
+ },
+ {
+  "file": "outputs/figures/f06_split_blocks.png",
+  "bytes": 1373967,
+  "sha256": "1a8a5e96132de40b1abb2b658ffbe948049992aa81bd0d291f4573ffec9e84cc"
+ },
+ {
+  "file": "outputs/figures/f06a_baseline_ndvi.png",
+  "bytes": 56216,
+  "sha256": "8edecf81ed40c50c07e2d9fdfeb4d6a760586bae4cedc1bead413694639baad5"
+ },
+ {
+  "file": "outputs/figures/f07_results_comparison.png",
+  "bytes": 65501,
+  "sha256": "b719b9bfa2d2cd4188d4e5ff0db88082d9127d292b02e260c9dba829b9f92f60"
+ },
+ {
+  "file": "outputs/figures/f08_confusion_matrices.png",
+  "bytes": 139913,
+  "sha256": "79cb2dbae327aff5d86fbf75a63972bde319ee4084f82e7829f69b4d8a29c084"
+ },
+ {
+  "file": "outputs/figures/f09_error_map.png",
+  "bytes": 1530899,
+  "sha256": "711fd2bcc385a5134e195e0e57c1bd9b1f744ea3e2d52d2c66f2260ee7ead4ac"
+ },
+ {
+  "file": "outputs/figures/f10_ndvi_uncertainty.png",
+  "bytes": 1392973,
+  "sha256": "91b98c2eda4edece31e317caaf9b6bb8b75dbf3767359d2c0ae0be3a6a9e86ec"
+ },
+ {
+  "file": "outputs/figures/f11_reliability.png",
+  "bytes": 69798,
+  "sha256": "bebf012a1c45538de04de82fc63588f4d54b960475f115621d2d5becb05b432a"
+ },
+ {
+  "file": "outputs/figures/f12_product_maps.png",
+  "bytes": 1427996,
+  "sha256": "9e65d7a8c887a7bf34c17f1ed86c487834c40ded4d1401c749122af34bee7ae4"
+ },
+ {
+  "file": "outputs/figures/f13_importance_by_wavelength.png",
+  "bytes": 101227,
+  "sha256": "724331dcca810adcd4ec6de7ad408dda5a5f09fda27b3d02a97e959729bcc7e0"
+ },
+ {
+  "file": "outputs/figures/f14_ndvi_area_composition.png",
+  "bytes": 69464,
+  "sha256": "ebc81efac065a42a02612c706b3f06ed75fba794d641c9cf56ac2051fe986174"
+ },
+ {
+  "file": "outputs/inspection_priority_cells.csv",
+  "bytes": 10391,
+  "sha256": "3cadbdf93ccfdfeb5db68bdc228b84df8569721ffa1cc1209753d389908d12c2"
+ },
+ {
+  "file": "outputs/Project_Demeter_confidence_COG.tif",
+  "bytes": 715609,
+  "sha256": "8a3b6975ca288c34a67bde625704a4a8024b0ddffc4c392be45ac177d4202d8d"
+ },
+ {
+  "file": "outputs/Project_Demeter_landcover_COG.tif",
+  "bytes": 40205,
+  "sha256": "4be30dd017c20bb483e1cb4dd2d262a080b113906e764d3f67eacba0cad93fea"
+ },
+ {
+  "file": "outputs/Project_Demeter_metadata.json",
+  "bytes": 5732,
+  "sha256": "474ff1875168350f2ff1286bf71a41dd3f708e1cbfb59310611b10ffcc3186b5"
+ },
+ {
+  "file": "outputs/Project_Demeter_NDVI_COG.tif",
+  "bytes": 735124,
+  "sha256": "ca6600635e6cf93e095d08304367e46f15da27958bae32fcad79bafad31b5500"
+ },
+ {
+  "file": "outputs/Project_Demeter_NDVI_gt_0.5_COG.tif",
+  "bytes": 23975,
+  "sha256": "abf681eb5e2d820063adabdbc3f001d39e27679a1f27305aade8fca052459f78"
+ },
+ {
+  "file": "outputs/Project_Demeter_NDVI_sigma_COG.tif",
+  "bytes": 709507,
+  "sha256": "0e6bc74ce83188cf4956f61327bce64ce2cf8d6d18304f4132193eba84384409"
+ },
+ {
+  "file": "validation/confidence_calibration.csv",
+  "bytes": 212,
+  "sha256": "d09b543d062b88057d81f5d4a3e2e6fa9b8d77b1f49177175f976aca393e2a2d"
+ },
+ {
+  "file": "validation/confusion_matrices.png",
+  "bytes": 139913,
+  "sha256": "79cb2dbae327aff5d86fbf75a63972bde319ee4084f82e7829f69b4d8a29c084"
+ },
+ {
+  "file": "validation/confusion_matrix_Four_indices.csv",
+  "bytes": 272,
+  "sha256": "b872b7825efa21d78b5461aaf12260f85ae52bbd3a776ed831a2710617c66f73"
+ },
+ {
+  "file": "validation/confusion_matrix_Full_spectrum.csv",
+  "bytes": 270,
+  "sha256": "1e89272d8dd73c3cf02ec563fc60241eca3de6c28213638a04108c22bae05de2"
+ },
+ {
+  "file": "validation/confusion_matrix_Sentinel2like.csv",
+  "bytes": 271,
+  "sha256": "3c2c25dca34c90903b33e86b467f3836b6292848a51cf88c97bed60bddc2ff25"
+ },
+ {
+  "file": "validation/importance_by_region.csv",
+  "bytes": 183,
+  "sha256": "1318e3070cb1974c5efe36870aa38fe29c4d9e7e3e0bfaa1e6ff8ee1c2c94a3b"
+ },
+ {
+  "file": "validation/key_numbers.csv",
+  "bytes": 805,
+  "sha256": "c1dcc2a731244d0f1c72582801e41a24fb2248feb64c537d9f055b429c3ba145"
+ },
+ {
+  "file": "validation/model_selection_validation.csv",
+  "bytes": 1225,
+  "sha256": "6e90bcdecba050d90750e6a5993131ce9b884c14043f6e7a750e0f406feacd9d"
+ },
+ {
+  "file": "validation/ndvi_threshold_sensitivity_with_uncertainty.csv",
+  "bytes": 231,
+  "sha256": "76dfdc7df1692b05cf1d923f94fb3926e6141705d0bd530b7b2207989a4125fc"
+ },
+ {
+  "file": "validation/paired_differences.csv",
+  "bytes": 495,
+  "sha256": "87bf7f30d6dee70f04f56fc1601057ec76bfb67fccf4a5b004aa76e6928d3e06"
+ },
+ {
+  "file": "validation/per_class_metrics_test.csv",
+  "bytes": 400,
+  "sha256": "bd8f95c9c43dcea629d21395e0be2e6990d7383860b4c3f54a9f8ae51066d09b"
+ },
+ {
+  "file": "validation/reference_samples.csv",
+  "bytes": 1903935,
+  "sha256": "0739ee5b5cfaa94d29bc363f9f8587e66e7ee1286117b96e2c4b45c83e48b167"
+ },
+ {
+  "file": "validation/robustness_interior_pixels.csv",
+  "bytes": 262,
+  "sha256": "cc1aa0ed2e3b71b591c5770cf7f368e75cb07f83d3a93261cb8c80de7bf74bdc"
+ },
+ {
+  "file": "validation/split_stability_macroF1_random_forest.csv",
+  "bytes": 238,
+  "sha256": "26fe79d836844ac7fffef50b61c7023beb78480c9b54c885a4aaa937fe6c9f93"
+ },
+ {
+  "file": "validation/test_metrics_multiclass.csv",
+  "bytes": 418,
+  "sha256": "ce1e5c529078aa4a05c93f4a611d4c942fac01a577105f95fedf0c423801b3ff"
+ },
+ {
+  "file": "validation/test_metrics_vegetation_binary.csv",
+  "bytes": 524,
+  "sha256": "e2c9ca5d62ca5f4ca4fa26e80ba0520634d2c58bac125a18f270058a4fd38d00"
+ }
+]

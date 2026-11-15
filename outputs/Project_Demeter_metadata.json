@@ -1,0 +1,188 @@
+{
+  "project": "Project_Demeter",
+  "team": [
+    "Mariolino Daniel III Julabar y Gonzales",
+    "AlReem AlRowahi"
+  ],
+  "contributions": "equal (50/50): Mariolino = data, preprocessing, uncertainty and product layers; AlReem = method, validation and impact",
+  "scene": {
+    "id": "20250430_101724_87_4001",
+    "url": "https://storage.googleapis.com/open-cogs/planet-stac/tanager1-release2-core-imagery/ortho_sr_hdf5/20250430_101724_87_4001_ortho_sr_hdf5.h5",
+    "acquired_utc": "2025-04-30T10:17:24",
+    "crs": "EPSG:32633",
+    "pixel_m": 30.0,
+    "crop_window_rows_cols": [
+      127,
+      639,
+      182,
+      694
+    ],
+    "crop_bbox_lonlat": [
+      17.05979,
+      40.50763,
+      17.24557,
+      40.64253
+    ]
+  },
+  "reference": {
+    "name": "ESA WorldCover 2021 v200",
+    "licence": "CC-BY 4.0",
+    "note": "pure 3x3 pixels only; agreement with WorldCover, not field truth"
+  },
+  "preprocessing": {
+    "bands_in_file": 426,
+    "bands_retained": 352,
+    "excluded_ranges_nm": [
+      [
+        0,
+        400
+      ],
+      [
+        1340,
+        1445
+      ],
+      [
+        1790,
+        1970
+      ],
+      [
+        2450,
+        3000
+      ]
+    ],
+    "valid_pixels": 256933,
+    "cloud_flagged_pct": 1.98,
+    "cirrus_flagged_pct": 0.37
+  },
+  "split": {
+    "block_px": 40,
+    "fractions": [
+      0.5,
+      0.2,
+      0.3
+    ],
+    "seed_used": 42,
+    "train_px": 15000,
+    "val_px": 34035,
+    "test_px": 48550
+  },
+  "selected_models": {
+    "Four indices": "SVM (RBF) C=10",
+    "Sentinel-2-like": "SVM (RBF) C=10",
+    "Full spectrum": "Logistic regression C=1"
+  },
+  "results_test": {
+    "Four indices": {
+      "OA": 0.6609,
+      "macro_F1": 0.6999,
+      "macro_F1_CI95": [
+        0.6437,
+        0.7329
+      ],
+      "cropland_F1": 0.4777
+    },
+    "Sentinel-2-like": {
+      "OA": 0.7226,
+      "macro_F1": 0.7707,
+      "macro_F1_CI95": [
+        0.7316,
+        0.7921
+      ],
+      "cropland_F1": 0.6054
+    },
+    "Full spectrum": {
+      "OA": 0.7899,
+      "macro_F1": 0.8229,
+      "macro_F1_CI95": [
+        0.7935,
+        0.84
+      ],
+      "cropland_F1": 0.698
+    }
+  },
+  "ndvi_threshold_tuned_on_train": 0.25,
+  "impact": {
+    "share_of_ndvi_gt_0_5_that_is_cropland_reference": 0.16,
+    "cropland_recall_ndvi_gt_0_5": 0.474,
+    "map_cropland_precision": 0.7079,
+    "map_cropland_recall": 0.6884,
+    "area_reduction_vs_ndvi_gt_0_5": 0.6111
+  },
+  "vegetation_binary_test": {
+    "NDVI > 0.5 (as planned)": {
+      "OA": 0.7359,
+      "F1_veg": 0.8239,
+      "recall_veg": 0.7009,
+      "precision_veg": 0.9993
+    },
+    "NDVI > 0.25 (tuned on train)": {
+      "OA": 0.9664,
+      "F1_veg": 0.9809,
+      "recall_veg": 0.9771,
+      "precision_veg": 0.9847
+    },
+    "Four indices (merged classes)": {
+      "OA": 0.9698,
+      "F1_veg": 0.9827,
+      "recall_veg": 0.9708,
+      "precision_veg": 0.9949
+    },
+    "Sentinel-2-like (merged classes)": {
+      "OA": 0.9822,
+      "F1_veg": 0.9899,
+      "recall_veg": 0.9833,
+      "precision_veg": 0.9965
+    },
+    "Full spectrum (merged classes)": {
+      "OA": 0.9878,
+      "F1_veg": 0.993,
+      "recall_veg": 0.9891,
+      "precision_veg": 0.997
+    }
+  },
+  "qa_cloud_flag": {
+    "share_of_flagged_that_is_builtup_or_bare": 0.881,
+    "share_of_builtup_reference_removed": 0.2
+  },
+  "areas_km2": {
+    "valid": 231.24,
+    "ndvi_gt_0_5": 131.19,
+    "ndvi_gt_tuned": 204.01,
+    "cropland_map": 51.02,
+    "cropland_worldcover": 50.05
+  },
+  "run": {
+    "seconds_total_this_run": 726,
+    "python": "3.13.15",
+    "date": "2026-11-15",
+    "packages": {
+      "numpy": "2.5.2",
+      "scipy": "1.18.1",
+      "scikit-learn": "1.9.1",
+      "h5py": "3.16.0",
+      "rasterio": "1.5.2",
+      "pandas": "3.0.5",
+      "matplotlib": "3.11.2"
+    }
+  },
+  "attribution": [
+    "Tanager STAC Data, available at www.planet.com/data/stac \u00a9 2025 Planet Labs PBC (CC-BY-4.0)",
+    "ESA WorldCover 2021 v200 \u00a9 ESA WorldCover project / Contains modified Copernicus Sentinel data (2021) processed by the ESA WorldCover consortium (CC-BY 4.0)"
+  ],
+  "limitations": [
+    "Agreement with WorldCover 2021, not field truth",
+    "Single date and scene",
+    "Sentinel-2-like bands are simulated",
+    "Beta cloud/cirrus masks",
+    "No crop type, health or yield claims"
+  ],
+  "key_results": [
+    "* **Baseline.** NDVI > 0.5 separates vegetation from non-vegetation with OA 0.74 and vegetation F1 0.82; a threshold tuned on training pixels only (NDVI > 0.25) reaches OA 0.97 and F1 0.98. The planned 0.5 finds only 70% of the reference vegetation (sparse or partly dry cover has NDVI below 0.5), although almost everything it flags is vegetation (precision 1.00).",
+    "* **Cropland is the hard part.** NDVI > 0.5 flags 131 km\u00b2, of which only 16% is cropland in the reference, and it still misses 53% of the cropland.",
+    "* **Five-class accuracy (test blocks).** Full spectrum: macro-F1 0.82 (95 % CI 0.79-0.84), Sentinel-2-like: 0.77, four indices: 0.70. Cropland F1: 0.70 / 0.61 / 0.48.",
+    "* **What hyperspectral adds.** Full spectrum minus Sentinel-2-like: macro-F1 +0.052 (95 % CI [0.039, 0.071]); cropland F1 +0.093 (95 % CI [0.060, 0.134]).",
+    "* **Targets (section 1).** Accuracy target (macro-F1 \u2265 0.80): **met on the point estimate; the 95 % CI lower bound is 0.79**. Added-value target (CI of the difference excludes 0): **met**.",
+    "* **Uncertainty.** NDVI 1-\u03c3 median 0.005; model-confidence calibration error 0.011."
+  ],
+  "split_stability_full_gt_s2_gt_indices": 5
+}
