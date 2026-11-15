@@ -1,6 +1,6 @@
-# Project Demeter: cropland versus other vegetation near Massafra (Puglia, Italy)
+# Project Demeter: Can hyperspectral data separate cropland from other vegetation near Massafra (Apulia, Italy)?
 
-Space Academy 2026 · Hyperspectral course · Final graduation project · Theme: precision agriculture
+Space Academy 2026 · Hyperspectral course · Final graduation project · Theme: Agriculture
 Team: Mariolino Daniel III Julabar · AlReem AlRowahi
 
 **Problem.** NDVI > 0.5 flags 131 km² of "vegetation" near Massafra, but only 16 % of it is cropland, and it still misses 53 % of the cropland (forest, scrub and grass are green too). An analyst planning field inspections needs cropland. **Question:** can the full Tanager spectrum separate cropland from other land cover, and does it beat what a multispectral sensor could do?
@@ -31,6 +31,6 @@ Full spectrum minus Sentinel-2-like: macro-F1 +0.052 (CI 0.039 to 0.071), same o
 | `validation/` | validation tables (CSV), confusion matrices, reference samples and splits |
 | `presentation.pdf`, `presentation.pptx` | final slides (PDF) and the editable slides with speaker notes |
 
-**Team contributions.** No team lead; both members contributed equally (50 % each), reviewed the whole notebook and can explain every part. Mariolino Daniel III Julabar: data, preprocessing, uncertainty and product layers. AlReem AlRowahi: method, validation and impact. An AI coding assistant (Claude) helped write code and text, as the course allows.
+**Team contributions.** No team lead; both members contributed equally (50 % each), reviewed the whole notebook and can explain every part. Mariolino Daniel III Julabar: data, preprocessing, uncertainty and product layers. AlReem AlRowahi: method, validation and impact. AI coding assistants (ChatGPT, Claude, Gemini, gIQ AI Assistant, and Perplexity) helped write code and text, as the course allows.
 
 **Credits.** Tanager STAC Data, available at www.planet.com/data/stac © 2025 Planet Labs PBC (CC-BY-4.0). ESA WorldCover 10 m 2021 v200, Zanaga et al. (2022), https://doi.org/10.5281/zenodo.7254221, © ESA WorldCover project / Contains modified Copernicus Sentinel data (2021) processed by the ESA WorldCover consortium (CC-BY 4.0).
