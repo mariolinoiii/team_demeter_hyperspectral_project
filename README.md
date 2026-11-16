@@ -52,9 +52,9 @@ Open `project.ipynb`, then select **Restart & Run All** (6–13 minutes; the fir
 
 ## Team contributions
 
-**Mariolino Daniel III Julabar:** data, preprocessing, uncertainty and product layers.
+**Mariolino Daniel III Julabar:** data, preprocessing, uncertainty and product layers. (Equal Contribution)
 
-**AlReem AlRowahi:** method, validation and impact.
+**AlReem AlRowahi:** method, validation and impact. (Equal Contribution)
 
 AI coding assistants (ChatGPT, Claude, Gemini, gIQ AI Assistant, and Perplexity) helped write code and text, as the course allows.
 
