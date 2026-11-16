@@ -1,6 +1,8 @@
 # Project Demeter: Can hyperspectral data separate cropland from other vegetation near Massafra (Apulia, Italy)?
 
-Space Academy 2026 · Hyperspectral course · Final graduation project · Theme: Agriculture · Team: Mariolino Daniel III Julabar, AlReem AlRowahi
+Space Academy 2026 · Hyperspectral course · Final graduation project
+
+Theme: Agriculture · Team: Mariolino Daniel III Julabar, AlReem AlRowahi
 
 **Problem.** NDVI > 0.5 flags 131 km² of "vegetation" near Massafra, but only 16 % of it is cropland, and it still misses 53 % of the cropland (forest, scrub and grass are green too). An analyst planning field inspections needs cropland. **Question:** can the full Tanager spectrum separate cropland from other land cover, and does it beat what a multispectral sensor could do?
 
