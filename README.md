@@ -32,6 +32,12 @@ Full spectrum minus Sentinel-2-like: macro-F1 +0.052 (CI 0.039 to 0.071), same o
 | `validation/` | validation tables (CSV), confusion matrices, reference samples and splits |
 | `presentation.pdf`, `presentation.pptx` | final slides (PDF) and the editable slides with speaker notes |
 
-**Team contributions.** Mariolino Daniel III Julabar: data, preprocessing, uncertainty and product layers. AlReem AlRowahi: method, validation and impact. AI coding assistants (ChatGPT, Claude, Gemini, gIQ AI Assistant, and Perplexity) helped write code and text, as the course allows.
+**Team contributions.** 
+
+Mariolino Daniel III Julabar: data, preprocessing, uncertainty and product layers. 
+
+AlReem AlRowahi: method, validation and impact. 
+
+AI coding assistants (ChatGPT, Claude, Gemini, gIQ AI Assistant, and Perplexity) helped write code and text, as the course allows.
 
 **Credits.** Tanager STAC Data, available at www.planet.com/data/stac © 2025 Planet Labs PBC (CC-BY-4.0). ESA WorldCover 10 m 2021 v200, Zanaga et al. (2022), https://doi.org/10.5281/zenodo.7254221, © ESA WorldCover project / Contains modified Copernicus Sentinel data (2021) processed by the ESA WorldCover consortium (CC-BY 4.0).
